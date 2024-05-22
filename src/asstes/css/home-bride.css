@@ -1,0 +1,12 @@
+.home-bride
+{
+    position: relative;
+    background-color: rgb(238, 235, 231);
+}
+.home-bride .bride-img
+{
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    height: 400px;
+}

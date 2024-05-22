@@ -1,0 +1,31 @@
+.online-parchase
+{
+    background:url(../images/img/9.jpg );
+    background-position: center;
+    background-size: cover;
+    padding: 300px 0px;
+    position: relative; 
+}
+@media (max-width:1200px)
+{
+    .online-parchase
+{
+    padding: 200px 0px; 
+}
+}
+.online-parchase::after
+{   
+    content: '';
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.61);
+    opacity: 1;   
+}
+.online-parchase .cont
+{
+    z-index: 1;
+    position: relative;
+}

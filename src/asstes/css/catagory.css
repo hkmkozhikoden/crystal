@@ -1,0 +1,23 @@
+.catagory .card .catagory-img
+{
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+}
+.catagory .card .card-cont
+{
+    background-color:#C2962D ;
+    padding: 15px 10px;
+    color: #fff ;
+    text-align: center;
+}
+.catagory .card:hover .card-cont
+{
+    background-color: #fff;
+    color: #C2962D;
+    border: 1px solid #C2962D;
+}
+.catagory .card .card-cont h6
+{
+margin: 0px;
+}

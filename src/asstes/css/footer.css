@@ -1,0 +1,27 @@
+footer
+{
+    padding: 30px 0px;
+    background: #000;
+}
+footer .logo
+{
+    max-width: 100%;
+    width: 150px;
+}
+footer .footer-menu .menu-item
+{
+    list-style: circle;
+    color: white;
+    margin: 10px 0px;
+}
+footer .footer-menu .menu-item a
+{
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+}
+footer .cont-icon
+{
+    max-width: 100%;
+    width: 40px;
+}
