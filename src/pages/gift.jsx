@@ -1,18 +1,18 @@
 import React from 'react'
 import Navbar from '../compontent/navbar'
 import Footer from '../compontent/footer'
-import RingBanner from '../compontent/ring-banner.jsx'
-import Diamond from '../compontent/diamond.jsx'
+import GiftBanner from '../compontent/gift-banner'
+import Diamond from '../compontent/diamond'
 
-const Blog = () => {
+const Mycourse = () => {
   return (
     <div>
-      <Navbar/>
-      <RingBanner/>
+        <Navbar/>
+      <GiftBanner/>
       <Diamond/>
       <Footer/>
     </div>
   )
 }
 
-export default Blog
+export default Mycourse

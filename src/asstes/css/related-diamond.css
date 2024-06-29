@@ -1,0 +1,25 @@
+.related-diamond .diamond-card 
+{
+    position: relative;
+    margin: 0px 10px;
+} 
+.related-diamond .diamond-card .diamond-img
+{
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+}
+.related-diamond .diamond-card
+{
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #C2962D;
+    background-color: #fff;
+    padding: 2px;
+}
+.related-diamond .diamond-card .diamond-cont
+{
+    width: 100%;
+    padding: 0px 10px;
+}

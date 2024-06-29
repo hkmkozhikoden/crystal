@@ -1,0 +1,15 @@
+.contact-form
+{
+    background-color: #bb902b !important;
+}
+.btn-submit
+{
+    background-color: aliceblue;
+    padding: 7px 20px;
+    box-shadow: 1px 1px 10px 8px rgba(0, 0, 0, .04);
+}
+  .contact-form textarea.form-control 
+{
+    min-height: 100px !important;
+    height: 100% !important;
+}

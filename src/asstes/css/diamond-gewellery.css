@@ -12,9 +12,11 @@
 .diamond-gewellery .diamond-cont
 {
     padding: 0px 10px;
-    bottom: 0px;
+    bottom: 10px;
     position: absolute;
     color: white;
+    width: 100%;
+    text-align: center;
 }
 .diamond-gewellery .diamond-card .diamond-img
 {
@@ -23,6 +25,7 @@
     object-fit: cover;
     width: 100%;
     position: relative;
+    border-radius: 3px;
 }
 .diamond-gewellery .diamond-card .img-card::after
 {

@@ -1,0 +1,30 @@
+/* .diamond-view
+{
+    padding: 200px 0px;
+    overflow: hidden;
+    max-width: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(../images/img/7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */
+.diamonds-view .diamond-img
+{
+    max-width: 100%;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border: none !important;
+}
+.diamonds-view .btn-now
+{
+    padding: 10px 20px;
+    background-color: #C2962D;
+    color: #fff;
+    border: none;
+}
+.fancybox__slide.has-image>.fancybox__content
+{
+    max-height: 90vh !important;
+}

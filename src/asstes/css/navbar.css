@@ -13,7 +13,7 @@ body:not(.open-menu) .header .menu-outside {
     
 .header-logo
 {
-  width: 100px;
+  width: 80px;
 }
 
 .Navbar .menu, .Navbar .menu-1 
@@ -121,6 +121,7 @@ body:not(.open-menu) .header .menu-outside {
 
 .Navbar .menu-bar .menu {
     padding-left: 0;
+    transition: transform .6s ease-in-out;
     margin-bottom: 0;
     list-style: none;}
 .Navbar .menu-bar .menu .link-item {

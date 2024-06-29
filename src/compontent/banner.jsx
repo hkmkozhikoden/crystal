@@ -1,9 +1,10 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Banner1 from "../asstes/images/img/1.jpg";
-import Banner2 from "../asstes/images/img/2.jpg";
+import Banner1 from "../asstes/images/diamond/1.webp";
+import Banner2 from "../asstes/images/img/12.jpg";
 import Banner3 from "../asstes/images/img/3.jpg";
 import Banner4 from "../asstes/images/img/4.jpg";
 import '../asstes/css/banner.css';
@@ -37,8 +38,8 @@ function Banner() {
               {data.map((d, index) => (
                 <div key={index} className="banner-slide">
                   <div className={`banner-content ${currentSlide === index ? 'active' : ''}`}>
-                    <h1 className="text-xl-semibold">{d.name}</h1>
-                    <h1 className="text-xl-semibold">{d.name1}</h1>
+                    <h1 className="text-xl-semibold mb-4">{d.mainhead}</h1>
+                    <button className="text-xl-semibold btn-1 "><Link>{d.name}</Link></button>
                   </div>
                   <img src={d.img} alt={d.name} className="banner-img" />
                 </div>
@@ -58,14 +59,12 @@ const data = [
     name:'Book Now',
     img: Banner1,
     mainhead:
-      "Best & Amazing Adventure in The World.",
+      "Shine Bright with Our Exquisite Jewellery",
   },
   {
     name:'Book Now',
     img: Banner2,
-    mainhead:
-      "Best & Amazing Adventure in The World.",
-  },
+    mainhead:"Discover Timeless Elegance"  },
   {
     name:'Book Now',
     img: Banner3,
@@ -76,7 +75,7 @@ const data = [
     name:'Book Now',
     img: Banner4,
     mainhead:
-      "Best & Amazing Adventure in The World.",
+      "The Ultimate Expression of Luxury",
   },
 ];
 

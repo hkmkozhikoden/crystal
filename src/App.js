@@ -4,12 +4,13 @@ import AOS from 'aos';
 import './App.css';
 import Home from './pages/home'
 import About from './pages/about'
-import Mycourse  from './pages/mycourse'
+import Gift  from './pages/gift'
 import Course from './pages/course'
 import Contact from './pages/contact'
 import './asstes/modules/boostrap/bootstrap.css'
 import './asstes/modules/aos/aos.css'
 import Blog from "./pages/blog";
+import DiamondView from "./pages/diamond-view";
 
 function App() {
   useEffect(() => {
@@ -23,11 +24,13 @@ function App() {
     <Router>
     <Routes>
       <Route index element={<Home/>}/>
-      <Route path="/about" element={<About/>}/>
-      <Route path="/course" element={<Course/>} />
-      <Route path="/mycourse" element={<Mycourse/>}/>
-      <Route path="/blog" element={<Blog/>}/>
+      <Route path="/diamond" element={<About/>}/>
+      <Route path="/gold" element={<Course/>} />
+      <Route path="/gift" element={<Gift/>}/>
+      <Route path="/ring" element={<Blog/>}/>
       <Route path="/contact" element={<Contact/>} />
+      <Route path="/diamond-view" element={<DiamondView/>} />
+
     </Routes>
     </Router>
     </div>

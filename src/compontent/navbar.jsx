@@ -27,7 +27,7 @@ const Navbar = () => {
                <Link className='menu-link text-white' to='/'>Home</Link>
              </li>
              <li className='menu-list'>
-               <Link className='menu-link text-white' to='/about'>About</Link>
+               <Link className='menu-link text-white' to='/diamond'>Diamond</Link>
              </li>
         </ul>
       </div>
@@ -55,16 +55,16 @@ const Navbar = () => {
                <Link className='menu-link' to='/'>Home</Link>
              </li>
              <li className='menu-list'>
-               <Link className='menu-link' to='/about'>About</Link>
+               <Link className='menu-link' to='/diamond'>Diamond</Link>
              </li>
              <li className='menu-list'>
-               <Link className='menu-link' to='/course'>Course</Link>
+               <Link className='menu-link' to='/gold'>Gold</Link>
              </li>
              <li className='menu-list'>
-               <Link className='menu-link' to='/blog'>Blog</Link>
+               <Link className='menu-link' to='/ring'>Ring</Link>
              </li>
              <li className='menu-list'>
-               <Link className='menu-link' to='/Mycourse'>Mycourse</Link>
+               <Link className='menu-link' to='/gift'>Gift</Link>
              </li>
              <li className='menu-list'>
                <Link className='menu-link' to='/contact'>Contact</Link>
