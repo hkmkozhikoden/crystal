@@ -1,5 +1,7 @@
 import React from 'react'
 import Slider from 'react-slick'
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import diamond1 from '../asstes/images/img/12.jpg'
 import diamond2 from '../asstes/images/img/6.jpg'
 import diamond3 from '../asstes/images/img/17.jpg'
