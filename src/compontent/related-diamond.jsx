@@ -26,7 +26,6 @@ const RealtedDiamond = () => {
         }
    
       }, {
-   
         breakpoint: 600,
         settings: {
           slidesToShow: 1,
