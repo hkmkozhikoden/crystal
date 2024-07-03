@@ -11,7 +11,7 @@ import './asstes/modules/boostrap/bootstrap.css'
 import './asstes/modules/aos/aos.css'
 import Blog from "./pages/blog";
 import DiamondView from "./pages/diamond-view";
-
+import ScrollToTop from "./compontent/scrolltop";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -22,6 +22,7 @@ function App() {
   return (
     <div className="App">
     <Router>
+    <ScrollToTop/>    
     <Routes>
       <Route index element={<Home/>}/>
       <Route path="/diamond" element={<About/>}/>
