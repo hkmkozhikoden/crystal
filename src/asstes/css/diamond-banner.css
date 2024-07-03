@@ -1,7 +1,7 @@
 .diamond-banner
 {
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(../images/img/4.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(../images/img/4.webp);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -16,7 +16,7 @@
 .gold-banner
 {
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(../images/img/7.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(../images/img/7.webp);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -26,7 +26,7 @@
 .ring-banner
 {
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(../images/img/4.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(../images/img/4.webp);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -36,7 +36,7 @@
 .gift-banner
 {
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(../images/banner/gift1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(../images/banner/gift1.webp);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -46,7 +46,7 @@
 .contact-banner
 {
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(../images/banner/contact.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(../images/banner/contact.webp);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;

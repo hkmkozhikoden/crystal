@@ -3,12 +3,12 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import '../asstes/css/diamond-gewellery.css'
-import diamond1 from '../asstes/images/img/12.jpg'
-import diamond2 from '../asstes/images/img/6.jpg'
-import diamond3 from '../asstes/images/img/17.jpg'
-import diamond4 from '../asstes/images/img/2.jpg'
-import diamond5 from '../asstes/images/img/5.jpg'
-import diamond6 from '../asstes/images/img/7.jpg'
+import diamond1 from '../asstes/images/img/12.webp'
+import diamond2 from '../asstes/images/img/6.webp'
+import diamond3 from '../asstes/images/img/17.webp'
+import diamond4 from '../asstes/images/img/2.webp'
+import diamond5 from '../asstes/images/img/5.webp'
+import diamond6 from '../asstes/images/img/7.webp'
 import { Link } from 'react-router-dom';
 const DiamondGewellery = () => {
     const settings = {

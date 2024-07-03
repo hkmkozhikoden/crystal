@@ -2,15 +2,15 @@ import React from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
-import New0 from '../asstes/images/img/2.jpg'
-import New1 from '../asstes/images/img/5.jpg'
-import New2 from '../asstes/images/img/7.jpg'
-import New4 from '../asstes/images/img/8.jpg'
-import New5 from '../asstes/images/img/9.jpg'
-import New6 from '../asstes/images/img/10.jpg'
-import New7 from '../asstes/images/img/2.jpg'
-import New8 from '../asstes/images/img/12.jpg'
-import New9 from '../asstes/images/img/13.jpg'
+import New0 from '../asstes/images/img/2.webp'
+import New1 from '../asstes/images/img/5.webp'
+import New2 from '../asstes/images/img/7.webp'
+import New4 from '../asstes/images/img/8.webp'
+import New5 from '../asstes/images/img/9.webp'
+import New6 from '../asstes/images/img/10.webp'
+import New7 from '../asstes/images/img/2.webp'
+import New8 from '../asstes/images/img/12.webp'
+import New9 from '../asstes/images/img/13.webp'
 import '../asstes/css/new-arrivel.css'
 import { Link } from 'react-router-dom';
 

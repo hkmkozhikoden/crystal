@@ -4,9 +4,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Banner1 from "../asstes/images/diamond/1.webp";
-import Banner2 from "../asstes/images/img/12.jpg";
-import Banner3 from "../asstes/images/img/3.jpg";
-import Banner4 from "../asstes/images/img/4.jpg";
+import Banner2 from "../asstes/images/img/12.webp";
+import Banner3 from "../asstes/images/img/3.webp";
+import Banner4 from "../asstes/images/img/4.webp";
 import '../asstes/css/banner.css';
 
 function Banner() {

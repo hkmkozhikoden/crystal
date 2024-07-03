@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import Diamond from '../asstes/images/img/12.jpg'
-import Diamond1 from '../asstes/images/img/14.jpg'
+import Diamond from '../asstes/images/img/12.webp'
+import Diamond1 from '../asstes/images/img/14.webp'
 import '../asstes/css/diamond-view.css'
 import { Fancybox } from '@fancyapps/ui';
 import '@fancyapps/ui/dist/fancybox/fancybox.css';

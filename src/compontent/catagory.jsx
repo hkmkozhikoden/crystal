@@ -1,8 +1,8 @@
 import React from 'react'
-import Cat1 from '../asstes/images/img/2.jpg'
-import Cat2 from '../asstes/images/img/6.jpg'
-import Cat3 from '../asstes/images/img/4.jpg'
-import Cat4 from '../asstes/images/img/5.jpg'
+import Cat1 from '../asstes/images/img/2.webp'
+import Cat2 from '../asstes/images/img/6.webp'
+import Cat3 from '../asstes/images/img/4.webp'
+import Cat4 from '../asstes/images/img/5.webp'
 
 import '../asstes/css/catagory.css'
 import { Link } from 'react-router-dom'

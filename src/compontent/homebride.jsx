@@ -1,5 +1,5 @@
 import React from 'react'
-import Bride from '../asstes/images/img/9.jpg'
+import Bride from '../asstes/images/img/9.webp'
 import '../asstes/css/home-bride.css'
 const HomeBride = () => {
   return (
