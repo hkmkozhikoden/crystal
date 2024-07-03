@@ -9,6 +9,7 @@ import diamond4 from '../asstes/images/img/2.jpg'
 import diamond5 from '../asstes/images/img/5.jpg'
 import diamond6 from '../asstes/images/img/7.jpg'
 import '../asstes/css/related-diamond.css'
+import { Link } from 'react-router-dom';
 const RealtedDiamond = () => {
     const settings = {
       dots: false,
@@ -44,7 +45,8 @@ const RealtedDiamond = () => {
             <Slider {...settings}>
                 {data.map((d, index) => (
                     <div key={index} className='blog-slick'>
-                       <div className="diamond-card" data-aos="fade-up" data-aos-offset="10">
+                     <Link to={d.link}>
+                     <div className="diamond-card" data-aos="fade-up" data-aos-offset="10">
                           <div className="img-card position-relative">
                             <img src={d.img} alt={d.name}  className='diamond-img '/>
                           </div>
@@ -54,6 +56,7 @@ const RealtedDiamond = () => {
                           <p className='text-uppercase fw-bold '>{d.price}</p>
                         </div>
                       </div>
+                     </Link>
                    </div>
                 ))}
             </Slider>
@@ -69,37 +72,43 @@ const data = [
         img: diamond1,
         head: 'Diamond Ring',
         price: '1400',
-        count:'only one pice is left'
+        count:'only one pice is left',
+        link:'/gold',
     },
     {
         img:diamond2,
         head:'Diamond Nosepin',
         price: '1400',
-        count:'only one pice is left'
+        count:'only one pice is left',
+        link:'/gold',
     },
     {
         img:diamond3,
         head:'Diamond Bangle',
         price: '1400',
-        count:'only one pice is left'
+        count:'only one pice is left',
+        link:'/gold',
     },
     {
         img:diamond4,
         head:'Diamond pendant',
         price: '1400',
-        count:'only one pice is left'
+        count:'only one pice is left',
+        link:'/gold',
     },
     {
         img:diamond5,
         head:'Diamond necklace',
         price: '1400',
-        count:'only one pice is left'
+        count:'only one pice is left',
+        link:'/gold',
     },
     {
         img:diamond6,
         head:'Diamond earring',
         price: '1400',
-        count:'only one pice is left'
+        count:'only one pice is left',
+        link:'/gold',
     },
 ];
 

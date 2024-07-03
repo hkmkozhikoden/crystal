@@ -39,7 +39,7 @@ function Banner() {
                 <div key={index} className="banner-slide">
                   <div className={`banner-content ${currentSlide === index ? 'active' : ''}`}>
                     <h1 className="text-xl-semibold mb-4">{d.mainhead}</h1>
-                    <button className="text-xl-semibold btn-1 "><Link>{d.name}</Link></button>
+                    <button className="text-xl-semibold btn-1 "><Link to='./diamond'>{d.name}</Link></button>
                   </div>
                   <img src={d.img} alt={d.name} className="banner-img" />
                 </div>

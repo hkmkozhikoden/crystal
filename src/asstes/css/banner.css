@@ -8,6 +8,12 @@
   object-fit: cover;
   position: relative;
 }
+@media(max-width:767px)
+{
+  .banner-img{
+    height: 600px;
+  }
+}
 
 .banner-content {
   position: absolute;

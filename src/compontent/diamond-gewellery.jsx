@@ -9,6 +9,7 @@ import diamond3 from '../asstes/images/img/17.jpg'
 import diamond4 from '../asstes/images/img/2.jpg'
 import diamond5 from '../asstes/images/img/5.jpg'
 import diamond6 from '../asstes/images/img/7.jpg'
+import { Link } from 'react-router-dom';
 const DiamondGewellery = () => {
     const settings = {
       dots: false,
@@ -50,7 +51,8 @@ const DiamondGewellery = () => {
                      <Slider {...settings}>
                          {data.map((d, index) => (
                              <div key={index} className='blog-slick'>
-                                 <div className="diamond-card">
+                                <Link to={d.link}>
+                                <div className="diamond-card">
                                      <div className="img-card position-relative">
                                      <img src={d.img} alt={d.name}  className='diamond-img'/>
                                      </div>
@@ -58,6 +60,7 @@ const DiamondGewellery = () => {
                                          <h6 className='text-uppercase fw-bold'>{d.head}</h6>
                                      </div>
                                  </div>
+                                </Link>
                              </div>
                         ))}
                      </Slider>
@@ -75,26 +78,32 @@ const data = [
     {
         img: diamond1,
         head: 'Diamond Ring',
+        link:'./diamond',
     },
     {
         img:diamond2,
         head:'Diamond Nosepin',
+        link:'./gold',
     },
     {
         img:diamond3,
         head:'Diamond Bangle',
+        link:'./ring',
     },
     {
         img:diamond4,
         head:'Diamond pendant',
+        link:'./ring',
     },
     {
         img:diamond5,
         head:'Diamond necklace',
+        link:'./gift',
     },
     {
         img:diamond6,
         head:'Diamond earring',
+        link:'./diamond',
     },
 ];
 

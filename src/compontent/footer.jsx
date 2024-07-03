@@ -27,38 +27,38 @@ const Footer = () => {
                 <div className="col-lg-3 col-md-2 col-6">
                   <ul className='footer-menu'>
                     <li className='menu-item'>
-                      <Link>noisepin</Link>
+                      <Link to='/gold'>noisepin</Link>
                     </li>
                     <li className='menu-item'>
-                      <Link>Pendant</Link>
+                      <Link to="/diamond">Pendant</Link>
                     </li>
                     <li className='menu-item'>
-                      <Link>Ring</Link>
+                      <Link to='/ring'>Ring</Link>
                     </li>
                     <li className='menu-item'>
-                      <Link>Bangle</Link>
+                      <Link to='/gift'>Bangle</Link>
                     </li>
                     <li className='menu-item'>
-                      <Link>Bangle</Link>
+                      <Link to='/gold'>Bangle</Link>
                     </li>
                   </ul>
                 </div>
                 <div className="col-lg-3 col-md-2 col-6">
                   <ul className='footer-menu'>
                     <li className='menu-item'>
-                      <Link>noisepin</Link>
+                      <Link to='/diamond'>noisepin</Link>
                     </li>
                     <li className='menu-item'>
-                      <Link>Pendant</Link>
+                      <Link to='/gold'>Pendant</Link>
                     </li>
                     <li className='menu-item'>
-                      <Link>Ring</Link>
+                      <Link to='/ring'>Ring</Link>
                     </li>
                     <li className='menu-item'>
-                      <Link>Bangle</Link>
+                      <Link to='/gift'>Bangle</Link>
                     </li>
                     <li className='menu-item'>
-                      <Link>Bangle</Link>
+                      <Link to='/gold'>Bangle</Link>
                     </li>
                   </ul>
                 </div>
@@ -73,15 +73,15 @@ const Footer = () => {
                     <li className='menu-item d-flex align-items-start'>
                       <img src={Phone} alt="Map" className='cont-icon' />
                       <div className="address ms-3">
-                      <Link className='d-block'>999999999</Link>
-                      <Link>9999999999</Link>
+                      <Link to='tel:999999' className='d-block'>999999999</Link>
+                      <Link to='tel:999999999'>9999999999</Link>
                       </div>
                     </li>
                     <li className='menu-item d-flex align-items-start'>
                       <img src={Email} alt="Map" className='cont-icon' />
                       <div className="address ms-3">
-                      <Link className='d-block'>contact@gmail.com</Link>
-                      <Link className='d-block'>contact@gmail.com</Link>
+                      <Link to='mailto:contact@gmail.com' className='d-block'>contact@gmail.com</Link>
+                      <Link to='mailto:contact@gmail.com' className='d-block'>contact@gmail.com</Link>
                       </div>
                     </li>
                   

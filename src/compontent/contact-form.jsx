@@ -1,5 +1,6 @@
 import React from 'react'
 import '../asstes/css/contact.css'
+import { Link } from 'react-router-dom'
 const ContactForm = () => {
   return (
     <div>
@@ -37,21 +38,29 @@ const ContactForm = () => {
                     <div className="row align-items-center">
                         <div className="col-sm-6 mb-3 mt-3">
                             <h6>Email</h6>
-                            <h6>Cristal@gmail.com</h6>
+                           <Link to='mailto:contact@gmail.com'>
+                             <h6>Cristal@gmail.com</h6>
+                           </Link>
                         </div>
                         <div className="col-sm-6 mb-3 mt-3">
                             <h6>Email</h6>
-                            <h6>cristal@gmail.com</h6>
+                           <Link to='mailto:contact@gmail.com'>
+                             <h6>cristal@gmail.com</h6>
+                           </Link>
                         </div>
                         <div className="col-sm-6 mb-3 mt-3">
                             <h6>Phone</h6>
-                            <h6>99999999999</h6>
-                            <h6>99999999999</h6>
+                            <h6><Link to='tel:999999999'>9999999999999</Link></h6>
+                            <h6><Link to='tel:999999999'>9999999999999</Link></h6>
                         </div>
                         <div className="col-sm-6 mb-3 mt-3">
                             <h6>Phone</h6>
-                            <h6>99999999999</h6>
-                            <h6>99999999999</h6>
+                            <Link to='tel:99999999'>
+                              <h6>99999999999</h6>
+                            </Link>
+                            <Link to='tel:99999999'>
+                              <h6>99999999999</h6>
+                            </Link>
                         </div>
                         <div className="col-md-6 mb-3 mt-3">
                             <h6>Address</h6>

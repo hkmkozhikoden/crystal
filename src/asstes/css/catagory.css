@@ -21,3 +21,7 @@
 {
 margin: 0px;
 }
+.catagory a{
+    text-decoration: none;
+    list-style: none;
+}

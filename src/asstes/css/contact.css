@@ -13,3 +13,8 @@
     min-height: 100px !important;
     height: 100% !important;
 }
+.contact-form a{
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+}
